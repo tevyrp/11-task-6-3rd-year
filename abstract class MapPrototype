@@ -1,0 +1,8 @@
+public abstract class MapPrototype implements Cloneable {
+    public abstract void draw();
+
+    @Override
+    public MapPrototype clone() throws CloneNotSupportedException {
+        return (MapPrototype) super.clone();
+    }
+}
