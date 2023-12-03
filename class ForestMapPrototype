@@ -1,0 +1,8 @@
+public class ForestMapPrototype extends MapPrototype {
+    private String terrain = "forest";
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing " + terrain + " map");
+    }
+}
