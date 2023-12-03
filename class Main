@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        MapGenerator mapGenerator = new MapGenerator(new ForestMapPrototype());
+
+        MapPrototype newMap = mapGenerator.generateMap();
+        if (newMap != null) {
+            newMap.draw();
+        }
+    }
+}
